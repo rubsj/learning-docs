@@ -1,0 +1,31 @@
+--- Modern Web Development with HTML5 and CSS, by Rachel Andrew.Its a video course
+--- the source code path for Modern Web Development with HTML5 and CSS https://resources.oreilly.com/examples/0636920039969
+---Block leve/inline level elements
+    - block elements starts new line
+    - block tends to be structural /container elements
+    - Inline elements flow within the document element
+    - inline elements can contain other inline elements
+    - NOTE: you can not nest block element inside inline element. This html rule is different from css rule
+--- Div and Span
+    - they have no real meaning but gve structure which can be styles using css
+    - `Div` is a meaningless block element
+    - `Span` is a meaningless inline element
+    - both these are ignored by text to speech readers   
+--- Link
+    - anchor a is the inline element
+    - anchor href can point to external/internal sites using http or ./ folder notation
+    - to link to an ID of an element in the same page the href should be having `href="#ID"`and if the id is on another page `href="./anotherpage.htm#ID"`  
+ --- Images
+    - `img` is empty element meaning it has no end tag
+    - the `alt` attrbute is used by tech to speech browser to read the image , if the image is not to be read give alt and empty value
+    - the height and width properties control the height and width 
+    - for responsive web design height and width should not be set instead should be controlled by css
+ --- Lists
+    - html has thee types of lists ordered list , unrdered lists and defnition list
+    - `li` is a block level element   
+    - definition list is created with `dl` inside it there are two terms `dt` definition term and `dd` definition description
+    - its valid to have multiple terms followed by one description and its also valid to have one term with multiple descriptions
+    - since it has terms and description a glossary would be good candidate to use it
+    - since lists are block level elements lists can be nested into each other
+ --- Tables   
+  
