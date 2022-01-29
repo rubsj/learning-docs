@@ -69,6 +69,12 @@ There are two approaches to handling it as a work around see `phone numbers` for
 ### Reactive Forms
 - With the reactive approach, you create a `control` yourself explicitly and use the `formControl` or the `formControlNam`e directive to bind it to a native control
 
+### Form Validation
+- Reactive form validation , there are three approaches
+  -- create a directive and set the validator in template file. The directive can't be used in ts file
+  --  create validator class and implement Validator or Async Validator returning Validation error , call this class name after injecting it in component in control creation
+  -- create validatr function which return a function that takes formcontrol as input and return validatorErrors. Call this function IIFE in control creation
+
 
 ### View as a core concept
 - Angular application is a tree of components However, under the hood angular uses a low-level abstraction called view.
