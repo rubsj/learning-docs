@@ -1,0 +1,2 @@
+- Tips/ LEarnings for doing good debugging
+--- To stop debugger from entering into third party library , do `blackbox script` by right clicking on that file 
