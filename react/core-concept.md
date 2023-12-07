@@ -1,0 +1,3 @@
+#### style core concept
+- how to use inline style feature in jsx. i.e. how to write html `<h1 style="font-size:24px">Inline styled HTML</h1>` in jsx? Answer : use object notation to create style property `<h1 style={{fontSize: "24px"}}>Inline styled JSX</h1>`
+- what if there are multiple declarations for inline style? i.e. `<h1 style="font-size:24px;text-transform:uppercase">Inline styled HTML</h1>` Answer : html uses `;` as seperator in jsx comman needs to be sued as seperator since its an object in jsx `<h1 style={{fontSize: "24px", textTransform: "uppercase"}}>Inline styled JSX</h1>`
